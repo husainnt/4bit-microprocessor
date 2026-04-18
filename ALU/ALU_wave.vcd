@@ -1,0 +1,361 @@
+$date
+	Sat Apr 18 12:41:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! r0 $end
+$var wire 1 " r1 $end
+$var wire 1 # r2 $end
+$var wire 1 $ r3 $end
+$var wire 1 % zf $end
+$var wire 1 & sf $end
+$var wire 1 ' of $end
+$var wire 1 ( cf $end
+$var parameter 32 ) SIZE $end
+$var reg 1 * a0 $end
+$var reg 1 + a1 $end
+$var reg 1 , a2 $end
+$var reg 1 - a3 $end
+$var reg 1 . b0 $end
+$var reg 1 / b1 $end
+$var reg 1 0 b2 $end
+$var reg 1 1 b3 $end
+$var reg 1 2 s0 $end
+$var reg 1 3 s1 $end
+$var reg 1 4 s2 $end
+$scope module myalu $end
+$var wire 1 * a0 $end
+$var wire 1 + a1 $end
+$var wire 1 , a2 $end
+$var wire 1 - a3 $end
+$var wire 1 . b0 $end
+$var wire 1 / b1 $end
+$var wire 1 0 b2 $end
+$var wire 1 1 b3 $end
+$var wire 1 ( cf $end
+$var wire 1 5 n_s2 $end
+$var wire 1 6 nr0 $end
+$var wire 1 7 nr1 $end
+$var wire 1 8 nr2 $end
+$var wire 1 ' of $end
+$var wire 1 ! r0 $end
+$var wire 1 9 r0_final $end
+$var wire 1 " r1 $end
+$var wire 1 : r1_final $end
+$var wire 1 # r2 $end
+$var wire 1 ; r2_final $end
+$var wire 1 $ r3 $end
+$var wire 1 < r3_final $end
+$var wire 1 2 s0 $end
+$var wire 1 3 s1 $end
+$var wire 1 4 s2 $end
+$var wire 1 & sf $end
+$var wire 1 = slt_bit $end
+$var wire 1 > sub $end
+$var wire 1 ? z1 $end
+$var wire 1 @ z2 $end
+$var wire 1 % zf $end
+$var wire 1 A c3 $end
+$var wire 1 B c2 $end
+$var wire 1 C c1 $end
+$var wire 1 D c0 $end
+$var parameter 32 E SIZE $end
+$scope module u0 $end
+$var wire 1 * a $end
+$var wire 1 F and1 $end
+$var wire 1 . b $end
+$var wire 1 G b_new $end
+$var wire 1 > binv $end
+$var wire 1 H c1 $end
+$var wire 1 I c2 $end
+$var wire 1 > cin $end
+$var wire 1 D cout $end
+$var wire 1 J or1 $end
+$var wire 1 ! out $end
+$var wire 1 2 s0 $end
+$var wire 1 3 s1 $end
+$var wire 1 K w1 $end
+$var wire 1 L w2 $end
+$var wire 1 M w3 $end
+$var wire 1 N w4 $end
+$var wire 1 O xor1 $end
+$var wire 1 P xor2 $end
+$upscope $end
+$scope module u1 $end
+$var wire 1 + a $end
+$var wire 1 Q and1 $end
+$var wire 1 / b $end
+$var wire 1 R b_new $end
+$var wire 1 > binv $end
+$var wire 1 S c1 $end
+$var wire 1 T c2 $end
+$var wire 1 D cin $end
+$var wire 1 C cout $end
+$var wire 1 U or1 $end
+$var wire 1 " out $end
+$var wire 1 2 s0 $end
+$var wire 1 3 s1 $end
+$var wire 1 V w1 $end
+$var wire 1 W w2 $end
+$var wire 1 X w3 $end
+$var wire 1 Y w4 $end
+$var wire 1 Z xor1 $end
+$var wire 1 [ xor2 $end
+$upscope $end
+$scope module u2 $end
+$var wire 1 , a $end
+$var wire 1 \ and1 $end
+$var wire 1 0 b $end
+$var wire 1 ] b_new $end
+$var wire 1 > binv $end
+$var wire 1 ^ c1 $end
+$var wire 1 _ c2 $end
+$var wire 1 C cin $end
+$var wire 1 B cout $end
+$var wire 1 ` or1 $end
+$var wire 1 # out $end
+$var wire 1 2 s0 $end
+$var wire 1 3 s1 $end
+$var wire 1 a w1 $end
+$var wire 1 b w2 $end
+$var wire 1 c w3 $end
+$var wire 1 d w4 $end
+$var wire 1 e xor1 $end
+$var wire 1 f xor2 $end
+$upscope $end
+$scope module u3 $end
+$var wire 1 - a $end
+$var wire 1 g and1 $end
+$var wire 1 1 b $end
+$var wire 1 h b_new $end
+$var wire 1 > binv $end
+$var wire 1 i c1 $end
+$var wire 1 j c2 $end
+$var wire 1 B cin $end
+$var wire 1 A cout $end
+$var wire 1 k or1 $end
+$var wire 1 $ out $end
+$var wire 1 2 s0 $end
+$var wire 1 3 s1 $end
+$var wire 1 l w1 $end
+$var wire 1 m w2 $end
+$var wire 1 n w3 $end
+$var wire 1 o w4 $end
+$var wire 1 p xor1 $end
+$var wire 1 q xor2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 E
+b100 )
+$end
+#0
+$dumpvars
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+1f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+1Z
+0Y
+0X
+0W
+0V
+1U
+1T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+1K
+1J
+0I
+1H
+1G
+1F
+1D
+1C
+0B
+0A
+x@
+x?
+0>
+x=
+x<
+x;
+x:
+x9
+08
+07
+06
+15
+04
+03
+02
+01
+00
+0/
+1.
+0-
+0,
+1+
+1*
+0(
+0'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+1(
+1A
+1P
+1j
+0'
+1^
+1p
+0C
+1B
+0G
+1R
+1]
+1h
+0K
+0I
+0D
+1[
+0T
+0f
+0_
+1>
+1L
+1b
+0F
+0O
+0H
+0U
+1Z
+1`
+0e
+12
+0*
+0+
+1,
+#20
+1c
+0P
+1f
+0B
+1'
+1(
+1e
+0^
+1[
+1A
+0]
+0M
+1X
+0n
+0O
+1Z
+0q
+0j
+0>
+0L
+0b
+0G
+0J
+1R
+1U
+1h
+1g
+1k
+0p
+1i
+02
+13
+0.
+1/
+11
+1-
+#30
+1%
+1?
+0!
+1P
+0&
+1@
+0=
+1H
+0Z
+0"
+0#
+0$
+1D
+0'
+0(
+1G
+0R
+1]
+09
+0:
+0;
+0<
+0I
+1f
+1q
+0A
+0X
+0c
+1>
+06
+05
+1h
+1J
+0O
+0`
+1e
+0g
+0k
+1p
+0i
+03
+14
+01
+1*
+0,
+0-
+#40
