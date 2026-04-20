@@ -77,5 +77,6 @@ clock=0;
 #10 d_inp=13;w_out=3;wr_en=1;//13
 #10 wr_en=0;
 #10 read1=1;read2=2;
+$finish;
 end
 endmodule
