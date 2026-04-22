@@ -1,0 +1,291 @@
+$date
+	Wed Apr 22 20:13:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbenchtask $end
+$var wire 4 ! pc_out [3:0] $end
+$var wire 4 " alu_result [3:0] $end
+$var reg 3 # alu_control [2:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % clr $end
+$var reg 4 & ext_data_in [3:0] $end
+$var reg 4 ' instruction [3:0] $end
+$var reg 1 ( pc_inc $end
+$var reg 1 ) select_data_source $end
+$var reg 1 * write_enable $end
+$scope module uut $end
+$var wire 3 + alu_control [2:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % clr $end
+$var wire 4 , ext_data_in [3:0] $end
+$var wire 4 - instruction [3:0] $end
+$var wire 1 ( pc_inc $end
+$var wire 1 ) select_data_source $end
+$var wire 1 * write_enable $end
+$var wire 2 . rs [1:0] $end
+$var wire 4 / read_data2 [3:0] $end
+$var wire 4 0 read_data1 [3:0] $end
+$var wire 2 1 rd [1:0] $end
+$var wire 4 2 pc_out [3:0] $end
+$var wire 4 3 alu_result [3:0] $end
+$var reg 4 4 data_to_write [3:0] $end
+$scope module ALU $end
+$var wire 3 5 alu_control [2:0] $end
+$var wire 4 6 B [3:0] $end
+$var wire 4 7 A [3:0] $end
+$var reg 4 8 result [3:0] $end
+$upscope $end
+$scope module PC $end
+$var wire 1 $ clk $end
+$var wire 1 % clr $end
+$var wire 1 ( pc_inc $end
+$var reg 4 9 address [3:0] $end
+$upscope $end
+$scope module RF $end
+$var wire 1 $ clk $end
+$var wire 4 : data_in [3:0] $end
+$var wire 2 ; rd1 [1:0] $end
+$var wire 2 < rd2 [1:0] $end
+$var wire 2 = wr [1:0] $end
+$var wire 1 * write_enable $end
+$var wire 4 > r3 [3:0] $end
+$var wire 4 ? r2 [3:0] $end
+$var wire 4 @ r1 [3:0] $end
+$var wire 4 A r0 [3:0] $end
+$var wire 4 B dec_out [3:0] $end
+$var wire 4 C data_out2 [3:0] $end
+$var wire 4 D data_out1 [3:0] $end
+$scope module decoder $end
+$var wire 2 E wr [1:0] $end
+$var wire 1 * write_enable $end
+$var reg 4 F dec_out [3:0] $end
+$upscope $end
+$scope module mux1 $end
+$var wire 2 G sel [1:0] $end
+$var wire 4 H in3 [3:0] $end
+$var wire 4 I in2 [3:0] $end
+$var wire 4 J in1 [3:0] $end
+$var wire 4 K in0 [3:0] $end
+$var reg 4 L dataout [3:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 2 M sel [1:0] $end
+$var wire 4 N in3 [3:0] $end
+$var wire 4 O in2 [3:0] $end
+$var wire 4 P in1 [3:0] $end
+$var wire 4 Q in0 [3:0] $end
+$var reg 4 R dataout [3:0] $end
+$upscope $end
+$scope module reg0 $end
+$var wire 1 $ clk $end
+$var wire 4 S d [3:0] $end
+$var wire 1 T load $end
+$var reg 4 U q [3:0] $end
+$upscope $end
+$scope module reg1 $end
+$var wire 1 $ clk $end
+$var wire 4 V d [3:0] $end
+$var wire 1 W load $end
+$var reg 4 X q [3:0] $end
+$upscope $end
+$scope module reg2 $end
+$var wire 1 $ clk $end
+$var wire 4 Y d [3:0] $end
+$var wire 1 Z load $end
+$var reg 4 [ q [3:0] $end
+$upscope $end
+$scope module reg3 $end
+$var wire 1 $ clk $end
+$var wire 4 \ d [3:0] $end
+$var wire 1 ] load $end
+$var reg 4 ^ q [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx ^
+0]
+bx \
+bx [
+0Z
+bx Y
+bx X
+0W
+bx V
+bx U
+0T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+b0 M
+bx L
+bx K
+bx J
+bx I
+bx H
+b0 G
+b0 F
+b0 E
+bx D
+bx C
+b0 B
+bx A
+bx @
+bx ?
+bx >
+b0 =
+b0 <
+b0 ;
+bx :
+b0 9
+bx 8
+bx 7
+bx 6
+b0 5
+bx 4
+bx 3
+b0 2
+b0 1
+bx 0
+bx /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+0)
+0(
+b0 '
+b0 &
+1%
+0$
+b0 #
+bx "
+b0 !
+$end
+#5
+1$
+#10
+1T
+b1 B
+b1 F
+b1010 4
+b1010 :
+b1010 S
+b1010 V
+b1010 Y
+b1010 \
+0$
+1)
+1*
+b1010 &
+b1010 ,
+0%
+#15
+b1010 "
+b1010 3
+b1010 8
+b1010 0
+b1010 7
+b1010 D
+b1010 L
+b1010 /
+b1010 6
+b1010 C
+b1010 R
+b1010 A
+b1010 K
+b1010 Q
+b1010 U
+1$
+#20
+1W
+0T
+b10 B
+b10 F
+b100 4
+b100 :
+b100 S
+b100 V
+b100 Y
+b100 \
+b100 "
+b100 3
+b100 8
+b1 1
+b1 =
+b1 E
+0$
+0)
+b10 #
+b10 +
+b10 5
+b100 '
+b100 -
+1*
+#25
+b100 @
+b100 J
+b100 P
+b100 X
+1$
+#30
+0W
+b0 B
+b0 F
+0$
+0*
+#35
+1$
+#40
+0$
+#45
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+1$
+#120
+0$
+#125
+1$
+#130
+0$
