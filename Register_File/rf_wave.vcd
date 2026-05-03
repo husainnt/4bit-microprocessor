@@ -1,0 +1,182 @@
+$date
+	Sun May 03 23:24:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_rf $end
+$var wire 4 ! out2 [3:0] $end
+$var wire 4 " out1 [3:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ clr $end
+$var reg 4 % d_in [3:0] $end
+$var reg 2 & rd1 [1:0] $end
+$var reg 2 ' rd2 [1:0] $end
+$var reg 1 ( we $end
+$var reg 2 ) wr [1:0] $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 4 * data_in [3:0] $end
+$var wire 2 + rd1 [1:0] $end
+$var wire 2 , rd2 [1:0] $end
+$var wire 2 - wr [1:0] $end
+$var wire 1 ( write_enable $end
+$var wire 4 . r3 [3:0] $end
+$var wire 4 / r2 [3:0] $end
+$var wire 4 0 r1 [3:0] $end
+$var wire 4 1 r0 [3:0] $end
+$var wire 4 2 dec_out [3:0] $end
+$var wire 4 3 data_out2 [3:0] $end
+$var wire 4 4 data_out1 [3:0] $end
+$scope module d1 $end
+$var wire 2 5 wr [1:0] $end
+$var wire 1 ( write_enable $end
+$var reg 4 6 dec_out [3:0] $end
+$upscope $end
+$scope module m1 $end
+$var wire 2 7 sel [1:0] $end
+$var wire 4 8 in3 [3:0] $end
+$var wire 4 9 in2 [3:0] $end
+$var wire 4 : in1 [3:0] $end
+$var wire 4 ; in0 [3:0] $end
+$var reg 4 < out [3:0] $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 = sel [1:0] $end
+$var wire 4 > in3 [3:0] $end
+$var wire 4 ? in2 [3:0] $end
+$var wire 4 @ in1 [3:0] $end
+$var wire 4 A in0 [3:0] $end
+$var reg 4 B out [3:0] $end
+$upscope $end
+$scope module reg0 $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 4 C d [3:0] $end
+$var wire 1 D load $end
+$var reg 4 E q [3:0] $end
+$upscope $end
+$scope module reg1 $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 4 F d [3:0] $end
+$var wire 1 G load $end
+$var reg 4 H q [3:0] $end
+$upscope $end
+$scope module reg2 $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 4 I d [3:0] $end
+$var wire 1 J load $end
+$var reg 4 K q [3:0] $end
+$upscope $end
+$scope module reg3 $end
+$var wire 1 # clk $end
+$var wire 1 $ clr $end
+$var wire 4 L d [3:0] $end
+$var wire 1 M load $end
+$var reg 4 N q [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 N
+xM
+bx L
+b0 K
+xJ
+bx I
+b0 H
+xG
+bx F
+b0 E
+xD
+bx C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+bx =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+bx 7
+bx 6
+bx 5
+b0 4
+b0 3
+bx 2
+b0 1
+b0 0
+b0 /
+b0 .
+bx -
+bx ,
+bx +
+bx *
+bx )
+x(
+bx '
+bx &
+bx %
+0$
+0#
+b0 "
+b0 !
+$end
+#5
+1#
+#7
+0M
+0J
+1G
+0D
+b10 2
+b10 6
+b111 %
+b111 *
+b111 C
+b111 F
+b111 I
+b111 L
+b1 )
+b1 -
+b1 5
+0(
+1$
+#10
+b111 0
+b111 :
+b111 @
+b111 H
+0#
+#15
+1#
+#17
+0G
+b111 "
+b111 4
+b111 <
+b0 2
+b0 6
+b1 &
+b1 +
+b1 7
+1(
+#20
+0#
+#25
+1#
+#27

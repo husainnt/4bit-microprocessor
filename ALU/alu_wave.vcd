@@ -1,0 +1,65 @@
+$date
+	Sun May 03 23:23:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_alu $end
+$var wire 4 ! ans [3:0] $end
+$var wire 1 " ZF $end
+$var wire 1 # SF $end
+$var wire 1 $ OF $end
+$var wire 1 % CF $end
+$var reg 4 & A [3:0] $end
+$var reg 1 ' AS $end
+$var reg 4 ( B [3:0] $end
+$var reg 1 ) Ci $end
+$var reg 2 * Op [1:0] $end
+$scope module uut $end
+$var wire 4 + A [3:0] $end
+$var wire 2 , ALUOp [1:0] $end
+$var wire 1 ' AddSub $end
+$var wire 4 - B [3:0] $end
+$var wire 1 ) Cin $end
+$var reg 1 # SF $end
+$var reg 1 " ZF $end
+$var reg 4 . ans [3:0] $end
+$var reg 1 % caary_flag $end
+$var reg 1 $ ovf_flag $end
+$var reg 5 / x [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000 /
+b1000 .
+b11 -
+b10 ,
+b101 +
+b10 *
+0)
+b11 (
+0'
+b101 &
+0%
+1$
+1#
+0"
+b1000 !
+$end
+#10
+b10 !
+b10 .
+b10 /
+0#
+0$
+1)
+1'
+#20

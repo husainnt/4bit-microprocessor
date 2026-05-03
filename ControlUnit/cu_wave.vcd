@@ -1,0 +1,131 @@
+$date
+	Sun May 03 23:24:59 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_cu $end
+$var wire 1 ! we $end
+$var wire 2 " st [1:0] $end
+$var wire 1 # src $end
+$var wire 1 $ jp $end
+$var wire 1 % ipc $end
+$var wire 1 & ci $end
+$var wire 1 ' br $end
+$var wire 1 ( as $end
+$var wire 2 ) alu_op [1:0] $end
+$var reg 1 * clk $end
+$var reg 4 + op [3:0] $end
+$var reg 1 , reset $end
+$var reg 1 - zf $end
+$scope module uut $end
+$var wire 1 * clock $end
+$var wire 4 . opcode [3:0] $end
+$var wire 1 , reset $end
+$var wire 1 - zero_flag $end
+$var parameter 2 / DECODE $end
+$var parameter 2 0 EXECUTE $end
+$var parameter 2 1 FETCH $end
+$var parameter 2 2 WRITEBACK $end
+$var reg 2 3 ALUOp [1:0] $end
+$var reg 1 ( AddSub $end
+$var reg 1 & Cin $end
+$var reg 1 # alu_src $end
+$var reg 1 ' branch $end
+$var reg 2 4 current_state [1:0] $end
+$var reg 1 % inc_PC $end
+$var reg 1 $ jump $end
+$var reg 2 5 next_state [1:0] $end
+$var reg 2 6 state [1:0] $end
+$var reg 1 ! wr_en $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 2
+b0 1
+b10 0
+b1 /
+$end
+#0
+$dumpvars
+bx 6
+b1 5
+b0 4
+b0 3
+bx .
+x-
+1,
+bx +
+0*
+b0 )
+0(
+0'
+0&
+0%
+0$
+0#
+bx "
+1!
+$end
+#5
+b0 "
+b0 6
+1*
+#10
+0*
+b10 +
+b10 .
+0,
+#15
+b10 )
+b10 3
+b10 5
+b1 4
+1*
+#20
+0*
+#25
+b0 )
+b0 3
+b11 5
+b1 "
+b1 6
+b10 4
+1*
+#30
+0*
+#35
+1%
+0!
+b0 5
+b10 "
+b10 6
+b11 4
+1*
+#40
+0*
+#45
+0%
+1!
+b1 5
+b11 "
+b11 6
+b0 4
+1*
+#50
+0*
+#55
+b10 )
+b10 3
+b10 5
+b0 "
+b0 6
+b1 4
+1*
+#60
+0*
